@@ -4,7 +4,7 @@
 # 💃 Wan-Dancer
 
 <p align="center">
-    💜 <a href="https://github.com/Wan-Video/Wan-Dancer"><b>Project</b></a> &nbsp&nbsp ｜ &nbsp&nbsp 🖥️ <a href="https://github.com/Wan-Video/Wan-Dancer">GitHub</a> &nbsp&nbsp  | &nbsp&nbsp🤗 <a href="https://huggingface.co/Wan-AI/Wan-Dancer-14B">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://www.modelscope.cn/models/Wan-AI/Wan-Dancer-14B">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2607.09581">Paper</a> &nbsp&nbsp 
+    💜 <a href="https://humanaigc.github.io/wan-dancer-project/"><b>Project</b></a> &nbsp&nbsp ｜ &nbsp&nbsp 🖥️ <a href="https://github.com/Wan-Video/Wan-Dancer">GitHub</a> &nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.ai/studios/Wan-AI/Wan-Dancer">MS Space</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://www.modelscope.cn/models/Wan-AI/Wan-Dancer-14B">MS Model</a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Wan-AI/Wan-Dancer-14B">HF Model</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2607.09581">Paper</a> &nbsp&nbsp 
 <br>
 
 > **Generating long-duration, high-quality, rhythmic dance videos from music with global structure and temporal continuity**
@@ -103,7 +103,7 @@ cd /path/to/Wan-Dancer
 > ✅ All other parameters (`seed`, `image_path`, etc.) are identical to Step 2. 
 
 #### 🌰 Examples
-| Dance Genres | Parameter             | Generated Global Video |
+| Dance Genres | Parameter             | Generated Final Video |
 | ------------ |-----------------------|-----------------|
 | Chinese Classical Dance | seed=0<br>image_path='gen_video/ref_image/1001.jpg'<br>prompt_path='gen_video/prompt/古典舞_local.txt'<br>music_path='gen_video/music/ChineseClassicDance.WAV'<br>num_inference_steps=24<br>cfg_scale=5<br>global_video_path='outputs/global_video/1001_ChineseClassicDance_seed0.mp4' | [![Chinese Classical Dance](gen_video/ref_image/1001.jpg)](https://cloud.video.taobao.com/vod/UycK9FTbYM6imr_6jF9aYbNYTiBggyE0EYptc2TRIAw.mp4) |
 | Street Dance | seed=0<br>image_path='gen_video/ref_image/2001.jpg'<br>prompt_path='gen_video/prompt/街舞_local.txt'<br>music_path='gen_video/music/StreetDance.WAV'<br>num_inference_steps=24<br>cfg_scale=5<br>global_video_path='outputs/global_video/2001_StreetDance_seed0.mp4' | [![Street Dance](gen_video/ref_image/2001.jpg)](https://cloud.video.taobao.com/vod/JZtIncJf7zPptZAYsQsoSxA_tyW_r62JfBBikBiTPcY.mp4) |
